@@ -1,0 +1,212 @@
+.navbar-toggler{border: none;}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.navbar-brand {
+  letter-spacing: 3px;
+  color: #c24244;
+}
+
+.navbar-brand:hover {
+	color: #c24244;
+}
+
+.navbar-scroll .nav-link,
+.navbar-scroll .fa-bars {
+  color: #7f4722;
+}
+
+.navbar-scrolled .nav-link,
+.navbar-scrolled .fa-bars {
+  color: #7f4722;
+}
+
+.navbar-scrolled {
+  background-color: #ffede7;
+}
+.nav-link{
+	color: black;
+    font-weight: 500;
+	transition: 0.3s;
+}
+.nav-link:hover{border-bottom: 1px solid black; color: #d18a10;}
+.carousel-caption h5{
+	font-size: 35px;
+    font-family: sans-serif;
+    color: #f0f0f0;
+} 
+.carousel-caption p{
+	font-family: sans-serif;
+    color: #f0f0f0;
+}
+/* Parent relative hona zaruri hai */
+#carouselExampleCaptions .carousel-item {
+  position: relative;
+}
+
+/* Dark overlay */
+#carouselExampleCaptions .carousel-item::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35); /* darkness control */
+  z-index: 1;
+}
+
+/* Caption overlay ke upar rahe */
+#carouselExampleCaptions .carousel-caption {
+  z-index: 2;
+}
+.about1 h2{font-size: 43px;}
+.about2 p{
+	font-size: 17px;
+    color: #4e4949;
+	text-align: justify;
+}
+.about11 img, .about2img img{ border-radius: 20px;}
+.about22 h5{
+	font-family: math;
+    font-weight: 600;
+    font-size: 16px;
+    color: #b27300;
+}
+.about22 h1{
+	font-size: 36px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.about22 p{
+	font-family: sans-serif;
+    font-size: 20px;
+    color: #535353;
+}
+.Quality i{
+  color: #f05a28;
+  font-size: 48px;}
+.Quality h3{font-family: sans-serif; font-size: 25px;}
+.Quality p{font-family: sans-serif; font-size: 14px; color: #888282;}
+.gallery p{
+	font-family: math;
+    font-weight: 600;
+    font-size: 20px;
+    color: #b27300;
+}
+.gallery h2{font-size: 40px; font-family: sans-serif;}
+.QA h1{font-family: sans-serif;}
+.accordion-button {
+            padding: 20px 25px;
+            font-weight: 600;
+            color: #333;
+            background-color: #ffffff;
+            transition: all 0.3s ease;
+        }
+
+        .accordion-button:not(.collapsed) {
+            color: #ffffff;
+            background-color: #4a4a4a;
+        }
+
+        .accordion-button:focus {
+            box-shadow: none;
+            border-color: rgba(0, 0, 0, .125);
+        }
+
+.contact-icon a{
+	font-size: 40px; color: #f1f1f1;}
+.contact1{
+	font-family: sans-serif;
+    color: #f1f1f1;
+    background: #065cc2;
+	border-radius: 20px;
+}
+.contact1 h2{font-family: sans-serif; font-size: 35px;}
+.Footer{background: #065cc2;}
+.Footer1 p{color: #f1f1f1; font-family: sans-serif;}
+.fixed-social{
+			position: fixed;
+			bottom: 80px;
+			right: 20px;
+			display: flex;
+			flex-direction: column;
+			gap: 15px;
+			z-index: 999999 !important;
+		}
+.fixed-social a{
+			text-decoration: none;
+			color: white;
+			font-size: 25px;
+			padding: 13px;
+			height: 45px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			border-radius: 50%;
+			box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+			position: relative;
+			z-index: 999999 !important;
+			transition: all 0.3s ease;
+		} 
+		.fixed-social a.fa-whatsapp { background: #25d366; }
+
+		/* Hover effect */
+		.fixed-social a:hover {
+		  transform: scale(1.1);
+		  opacity: 0.9;
+		}
+
+
+
+
+
+
+
+@media screen and (max-width: 991px) {
+	.about1 h2, .gallery h2 {
+    font-size: 33px;
+	}
+	.contact-icon a {font-size: 35px;}
+	.contact1 h2{font-size: 30px;}
+	.contact1 p{font-size: 15px;}
+}
+@media screen and (max-width: 767px) {
+	.nav-link{font-size: 15px ;}
+	.carousel-item img {
+		height: 250px !important;
+	  }
+	  .carousel-caption h5{
+	  font-size: 20px;}
+	  .carousel-caption p{
+	  font-size: 10px;}
+	  .about1 h2, .about22 h1 {font-size: 29px;}
+	  .about22 p{font-size: 18px;}
+}
+@media screen and (max-width: 576px) {
+	.logo a{font-size: 20px;}
+	.Top p{font-size: 13px;}
+	.about2 p{font-size: 18px;}
+	.imgg img{width: 50% !important;}
+	.Quality h3{font-size: 22px;}
+.Quality p{font-size: 11px;}
+}
+@media screen and (max-width: 480px) {
+	.Top p{font-size: 8px;}
+	.carousel-item img {height: 180px !important;}
+	  .carousel-caption h5{
+	  font-size: 10px;}
+	  .carousel-caption p{
+	  font-size: 5px;}
+	  .about1 h2 {font-size: 18px;}
+	  .about2 p, .about22 p{font-size: 15px;}
+	  .about22 h1 {font-size: 20px;}
+	  .gallery h2, .QA h1 {font-size: 23px;}
+	  .gallery p{font-size: 11px;}
+	  .accordion-button{font-size: 12px;}
+	  .accordion-body {font-size: 10px;}
+	  .Contact h1{font-size: 25px;}
+	  .contact1 p{font-size: 13px;}
+	  .Footer1 p{font-size: 11px;}
+}
