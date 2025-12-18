@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .navbar-toggler{border: none;}
 .navbar-toggler:focus,
 .navbar-toggler:active,
@@ -17,22 +20,14 @@
 .navbar-scroll .nav-link,
 .navbar-scroll .fa-bars {
   color: #7f4722;
+  font-weight: 500;
+	transition: 0.3s;
 }
-
-.navbar-scrolled .nav-link,
-.navbar-scrolled .fa-bars {
-  color: #7f4722;
-}
-
 .navbar-scrolled {
   background-color: #ffede7;
 }
-.nav-link{
-	color: black;
-    font-weight: 500;
-	transition: 0.3s;
-}
 .nav-link:hover{border-bottom: 1px solid black; color: #d18a10;}
+
 .carousel-caption h5{
 	font-size: 35px;
     font-family: sans-serif;
@@ -157,11 +152,24 @@
 		  transform: scale(1.1);
 		  opacity: 0.9;
 		}
-
-
-
-
-
+.services .card{box-shadow: 0px 2px 6px 4px #cecece; transition: 0.3s;}
+.services .card:hover{ transform: translateY(-8px);}
+.customtitle .bgimg{
+	background: linear-gradient(rgba(53, 53, 53, .7), rgba(53, 53, 53, .7)), url(https://themewagon.github.io/woody/img/carousel-1.jpg) center center no-repeat;
+    background-size: cover;
+	height: 300px;
+}
+.Galleres{}
+.product {
+  
+}
+.product .caption h6 {font-family: sans-serif;}
+.product img{
+  transition: 0.3s;
+}
+.product img:hover {
+  box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.2);
+}
 
 
 @media screen and (max-width: 991px) {
@@ -171,6 +179,8 @@
 	.contact-icon a {font-size: 35px;}
 	.contact1 h2{font-size: 30px;}
 	.contact1 p{font-size: 15px;}
+	.services h4{font-size: 20px;}
+	.services p{font-size: 13px;}
 }
 @media screen and (max-width: 767px) {
 	.nav-link{font-size: 15px ;}
@@ -193,12 +203,12 @@
 .Quality p{font-size: 11px;}
 }
 @media screen and (max-width: 480px) {
-	.Top p{font-size: 8px;}
+	.Top p{font-size: 9px;}
 	.carousel-item img {height: 250px !important;}
 	  .carousel-caption h5{
-	  font-size: 10px;}
+	  font-size: 15px;}
 	  .carousel-caption p{
-	  font-size: 5px;}
+	  font-size: 7px;}
 	  .about1 h2 {font-size: 18px;}
 	  .about2 p, .about22 p{font-size: 15px;}
 	  .about22 h1 {font-size: 20px;}
@@ -215,4 +225,5 @@
 	  }
 	  .lasticon i{font-size: 25px;}
 	  .Footer1 p{font-size: 11px;}
+	  .customtitle .bgimg{height: 150px;}
 }
