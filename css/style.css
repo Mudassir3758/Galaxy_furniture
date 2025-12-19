@@ -162,9 +162,16 @@ html {
 .Galleres{}
 .product .caption h6 {font-family: sans-serif;}
 .product img{
+  height: 250px;
+  object-fit: cover; 
   transition: 0.3s;
 }
-.product img:hover {
+.Door img{
+    height: 500px;
+    object-fit: cover;
+    transition: 0.3s;
+}
+.product img:hover, .Door img:hover {
   box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.2);
 }
 .nav-pills .nav-link.active {
