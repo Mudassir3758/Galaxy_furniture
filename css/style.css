@@ -26,7 +26,7 @@ html {
 .navbar-scrolled {
   background-color: #ffede7;
 }
-.nav-link:hover{border-bottom: 1px solid black; color: #d18a10;}
+.Navi .nav-link:hover{border-bottom: 1px solid black; color: #d18a10;}
 
 .carousel-caption h5{
 	font-size: 35px;
@@ -160,15 +160,17 @@ html {
 	height: 300px;
 }
 .Galleres{}
-.product {
-  
-}
 .product .caption h6 {font-family: sans-serif;}
 .product img{
   transition: 0.3s;
 }
 .product img:hover {
   box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.2);
+}
+.nav-pills .nav-link.active {
+	padding: 6px 20px;
+    border-radius: 20px;
+    background: #5b91ff;
 }
 
 
@@ -180,7 +182,7 @@ html {
 	.contact1 h2{font-size: 30px;}
 	.contact1 p{font-size: 15px;}
 	.services h4{font-size: 20px;}
-	.services p{font-size: 13px;}
+	.services p, .bttonn button{font-size: 13px;}
 }
 @media screen and (max-width: 767px) {
 	.nav-link{font-size: 15px ;}

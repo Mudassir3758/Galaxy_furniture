@@ -62,7 +62,7 @@
 				<a class="nav-link px-3" href="Services.html">Services</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link px-3" href="Contact_Us.html">contact us</a>
+				<a class="nav-link px-3" href="Contact_Us.html">Contact Us</a>
 			  </li>
 			</ul>
 	  
@@ -115,7 +115,7 @@
 	</div>
 </section>
 
-<div class="container">
+<div id="About" class="container">
 	<div class="row">
 			<div class="col imgg">
 				<img src="https://www.galaxyhomeusa.com/Content/Images/logo.png" alt="" class="img-fluid d-block mt-5 mx-auto" />
@@ -150,7 +150,7 @@
 	</div>
 </div>
 
-<section id="About">
+<section>
 <div class="container my-5">
 	<div class="row">
 			<div class="col-lg-6">
@@ -376,8 +376,8 @@
 			<div class="col-md-4 p-3">
 					<h5 class="mb-3 ms-2">Quick Links</h5>
 					<a class="nav-link mb-2 d-inline-block ms-3" href="index.html">Home</a>
-					<a class="nav-link mb-2 d-inline-block ms-3" href="#About">About Us</a>
-					<a class="nav-link mb-2 d-inline-block ms-3" href="#Project">Project</a>
+					<a class="nav-link mb-2 d-inline-block ms-3" href="About">About Us</a>
+					<a class="nav-link mb-2 d-inline-block ms-3" href="Project">Project</a>
 					<a class="nav-link mb-2 d-inline-block ms-3" href="Gallery.html">Gallery</a>
 					<a class="nav-link mb-2 d-inline-block ms-3" href="Services.html">Services</a>
 					<a class="nav-link mb-2 d-inline-block ms-3" href="Contact_Us.html">Contact Us</a>
@@ -527,7 +527,19 @@ var typed = new Typed('#typed', {
   AOS.init();
 </script>
 
-
+<script>
+document.addEventListener('contextmenu', event => event.preventDefault());
+</script>
+<script>
+document.onkeydown = function(e) {
+  if (
+    e.ctrlKey && (e.key === 'u' || e.key === 'U') ||
+    e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'i') ||
+    e.key === 'F12'
+  ) {
+    return false;
+  }
+};
+</script>
 </body>
 </html>
-
